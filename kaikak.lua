@@ -17,12 +17,12 @@ _G.MainSettings = {
         }
     }
 _G.Fruits_Settings = { -- ตั้งค่าผล
-    ['Main_Fruits'] = {"Dragon-Dragon","T-Rex-T-Rex","Kitsune-Kitsune"}, -- ผลหลัก ถ้ายังไม่ใช่ค่าที่ตั้งมันจะกินจนกว่าจะใช่หรือซื้อ
-    ['Select_Fruits'] = { "Magma-Magma","T-Rex-T-Rex","Kitsune-Kitsune","Kitsune-Kitsune","Dragon-Dragon",}
+    ['Main_Fruits'] = {"Dragon-Dragon","Kitsune-Kitsune"}, -- ผลหลัก ถ้ายังไม่ใช่ค่าที่ตั้งมันจะกินจนกว่าจะใช่หรือซื้อ
+    ['Select_Fruits'] = { "Dough-Dough","Magma-Magma","Dark-Dark","T-Rex-T-Rex","Kitsune-Kitsune","Kitsune-Kitsune","Dragon-Dragon",}
 }
 _G.Quests_Settings = { -- ตั้งค่าเควสหลักๆ
     ['Rainbow_Haki'] = true,
-    ["MusketeerHat"] = true,
+    ["MusketeerHat"] = false,
     ["PullLever"] = true,
     ['DoughQuests_Mirror'] = {
         ['Enabled'] = true,
@@ -37,7 +37,7 @@ _G.Races_Settings = { -- ตั้งค่าเผ่า
         ["Races_Lock"] = {
             ["Races"] = { -- Select Races U want
                 ["Mink"] = true,
-                ["Human"] = true,
+                ["Human"] = false,
                 ["Fishman"] = true,
                 ["Skypiea"] = true
             },
