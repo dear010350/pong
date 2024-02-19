@@ -10,15 +10,15 @@ _G.MainSettings = {
         ["LockFruitsRaid"] = { -- ล็อคผลที่ไม่เอาไปลงดัน
             [1] = "Dough-Dough",
             [2] = "Dragon-Dragon",
-            [3] = "Leopard-Leopard",
+            [3] = "Kitsune-Kitsune",
             [4] = "Kitsune-Kitsune",
             [5] = "T-Rex-T-Rex",
             [6] = "Mammoth-Mammoth"
         }
     }
 _G.Fruits_Settings = { -- ตั้งค่าผล
-    ['Main_Fruits'] = {'Dough-Dough'}, -- ผลหลัก ถ้ายังไม่ใช่ค่าที่ตั้งมันจะกินจนกว่าจะใช่หรือซื้อ
-    ['Select_Fruits'] = {"Dough-Dough", "Magma-Magma"}
+    ['Main_Fruits'] = {"Dragon-Dragon","T-Rex-T-Rex","Kitsune-Kitsune"}, -- ผลหลัก ถ้ายังไม่ใช่ค่าที่ตั้งมันจะกินจนกว่าจะใช่หรือซื้อ
+    ['Select_Fruits'] = { "Magma-Magma","T-Rex-T-Rex","Kitsune-Kitsune","Kitsune-Kitsune","Dragon-Dragon",}
 }
 _G.Quests_Settings = { -- ตั้งค่าเควสหลักๆ
     ['Rainbow_Haki'] = true,
@@ -36,10 +36,10 @@ _G.Races_Settings = { -- ตั้งค่าเผ่า
         ["v3"] = true,
         ["Races_Lock"] = {
             ["Races"] = { -- Select Races U want
-                ["Mink"] = false,
-                ["Human"] = false,
+                ["Mink"] = true,
+                ["Human"] = true,
                 ["Fishman"] = true,
-                ["Skypiea"] = false
+                ["Skypiea"] = true
             },
             ["RerollsWhenFragments"] = 30000 -- Random Races When Your Fragments is >= Settings
         }
