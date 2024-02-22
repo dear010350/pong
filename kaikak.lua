@@ -39,7 +39,7 @@ _G.Races_Settings = { -- ตั้งค่าเผ่า
                 ["Mink"] = true,
                 ["Human"] = false,
                 ["Fishman"] = true,
-                ["Skypiea"] = true
+                ["Skypiea"] = false
             },
             ["RerollsWhenFragments"] = 30000 -- Random Races When Your Fragments is >= Settings
         }
